@@ -22,7 +22,6 @@ footer {
 }
 
 
-
 .top-header {
     display: flex;
     justify-content: space-around;
@@ -85,10 +84,12 @@ footer {
 
 .info {
     max-width: 100px;
+    color: #3a3f43;
 }
 
 .info > .images {
     border: 2px solid #3882F6;
+    border-radius: 8px;
     width: 100px;
     height: 100px;
     margin-bottom: 10px;
@@ -97,6 +98,7 @@ footer {
 .quote-container {
     background-color: #E5E7EB;
     padding: 64px 0;
+    color: #1F2937;
 }
 
 .quote-text {
@@ -112,6 +114,43 @@ footer {
     text-align: right;
     width: 500px;
     margin: 0 auto;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 0;
+    
+}
+
+.cta-subcontainer {
+    background-color: #3882F6;
+    width: 700px;
+    border-radius: 8px;
+    padding: 32px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.cta-subcontainer > .buttons {
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    align-self: center;
+}
+
+.cta-text {
+    font-size: 18px;
+    color: #e0e0e0;
+    width: 300px;
+}
+
+.cta-title {
+    color: #F9FAF8;
     font-size: 24px;
     font-weight: 700;
 }
@@ -132,7 +171,8 @@ a {
 button {
     padding: 8px 32px;
     background-color: #3882F6;
-    color: #fff;
+    color: #F9FAF8;
     border-radius: 8px;
     border: none;
+    font-weight: 700;
 }
