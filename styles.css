@@ -1,3 +1,7 @@
+html {
+    cursor: url('images/moon.png'), auto;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -29,6 +33,7 @@ header {
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    width: 100px;
 }
 
 .header-links {
