@@ -10,13 +10,15 @@ html {
 
 body {
     font-family: Roboto;
+    background-color: #FFECAF;
     /* display: flex;
     justify-content: center;
     flex-direction: column; */
 }
 
-header {
-    background-color: #1F2937;
+header,
+footer {
+    background-color: #982176;
 }
 
 .top-header,
@@ -32,7 +34,7 @@ header {
 
 .logo {
     font-size: 24px;
-    color: #F9FAF8;
+    color: #ffffe8;
     width: 100px;
 }
 
@@ -56,8 +58,7 @@ header {
 }
 
 .right-hero > .images {
-    background-color: #3a3f43;
-    color: #F9FAF8;
+    color: #ffffe8;
     width: 500px;
     height: 200px;
     display: flex;
@@ -66,7 +67,7 @@ header {
 }
 
 .hero-title {
-    color: #F9FAF8;
+    color: #ffffe8;
     font-size: 48px;
     font-weight: 800;
 }
@@ -75,13 +76,13 @@ header {
 .header-links,
 .footer-subtext {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #ffffe8;
 }
 
 .title-info {
     text-align: center;
     font-size: 32px;
-    color: #1F2937;
+    color: #5C0044;
     font-weight: 800;
     margin: 32px 0;
 }
@@ -96,11 +97,11 @@ header {
 
 .info {
     max-width: 100px;
-    color: #3a3f43;
+    color: #5C0044;
 }
 
 .info > .images {
-    border: 2px solid #3882F6;
+    border: 2px solid #FF52A2;
     border-radius: 8px;
     width: 100px;
     height: 100px;
@@ -108,9 +109,9 @@ header {
 }
 
 .quote-container {
-    background-color: #E5E7EB;
+    background-color: #FFB07F;
     padding: 64px 0;
-    color: #1F2937;
+    color: #5C0044;
 }
 
 .quote-text {
@@ -139,7 +140,7 @@ header {
 }
 
 .cta-subcontainer {
-    background-color: #3882F6;
+    background-color: #FF52A2;
     width: 700px;
     border-radius: 8px;
     padding: 32px 100px;
@@ -150,19 +151,19 @@ header {
 }
 
 .cta-subcontainer > .buttons {
-    border: 2px solid #F9FAF8;
+    border: 2px solid #fafaf8;
     border-radius: 8px;
     align-self: center;
 }
 
 .cta-text {
     font-size: 18px;
-    color: #e0e0e0;
+    color: #ffffe8;
     width: 300px;
 }
 
 .cta-title {
-    color: #F9FAF8;
+    color: #fffffb;
     font-size: 24px;
     font-weight: 700;
 }
@@ -182,15 +183,14 @@ a {
 
 button {
     padding: 8px 32px;
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-color: #FF52A2;
+    color: #ffffe8;
     border-radius: 8px;
     border: none;
     font-weight: 700;
 }
 
 footer {
-    background-color: #1F2937;
     display: flex;
     flex-direction: column;
     align-items: center;
