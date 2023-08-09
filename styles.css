@@ -11,6 +11,7 @@ html {
 body {
     font-family: Roboto;
     background-color: #FFECAF;
+    font-size: 16px;
 }
 
 header,
@@ -32,7 +33,7 @@ footer {
 }
 
 .logo {
-    font-size: 24px;
+    font-size: 2rem;
     color: #ffffe8;
     width: 100px;
 }
@@ -58,15 +59,19 @@ footer {
 
 .right-hero > .images {
     color: #ffffe8;
-    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.right-hero > .images > img {
+    width: 100%;
+    padding-right: 50px;
+}
+
 .hero-title {
     color: #ffffe8;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 800;
 }
 
@@ -127,7 +132,7 @@ footer {
 .quote-container {
     background-color: #FFB07F;
     color: #5C0044;
-    padding: 100px 300px;
+    padding: 100px 10%;
 }
 
 .quote-text {
@@ -186,7 +191,6 @@ footer {
 .cta-text {
     font-size: 18px;
     color: #ffffe8;
-    width: 500px;
 }
 
 .cta-title {
@@ -354,4 +358,62 @@ span {
     font-weight: 800;
 }
 
+/* Media queries */
 
+@media only screen and (max-width: 783px){
+    .header-links {
+        flex-flow: column wrap;
+    }
+
+    .quote-container {
+        width: 100%;
+    }
+
+    
+    .cta-subcontainer {
+        padding: 32px 10%;
+    }
+
+    .playlist {
+        margin: 0 10% 100px;
+    }
+
+    .cta-subcontainer {
+        flex-direction: column;
+    }
+
+    .right-hero > .images > img {
+        width: 70%;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        padding-bottom: 16px;
+    }
+
+    .hero-subtext {
+        padding-bottom: 16px;
+    }
+}
+
+
+/* @media only screen and (max-width: 561px){
+    .header-links {
+        flex-flow: column wrap;
+    }
+
+    .quote-container {
+        display: flex;
+        flex-flow: column wrap;
+    }
+}
+
+@media only screen and (max-width: 346px){
+    .header-links {
+        flex-flow: column wrap;
+    }
+
+    .quote-container {
+        width: 100%;
+    }
+} */
